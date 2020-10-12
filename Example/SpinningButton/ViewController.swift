@@ -7,18 +7,29 @@
 //
 
 import UIKit
+import SpinningButton
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var actionButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        actionButton.backgroundColor = .blue
+        actionButton.setTitleColor(.white, for: .normal)
+        actionButton.layer.cornerRadius = 16.0
+        actionButton.layer.masksToBounds = true
+        actionButton.setTitle("Show Loader", for: .normal)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func action(_ sender: Any) {
+        print("Worked")
+    }
 }
 

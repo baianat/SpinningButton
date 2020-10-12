@@ -1,0 +1,16 @@
+PODS:
+  - SpinningButton (0.1.0)
+
+DEPENDENCIES:
+  - SpinningButton (from `../`)
+
+EXTERNAL SOURCES:
+  SpinningButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SpinningButton: 8de7faa268e982f72bddb28fa48c344146f44bd0
+
+PODFILE CHECKSUM: 688afb5b03bbd9164d2561208a1fb85c4a64ba50
+
+COCOAPODS: 1.9.3
