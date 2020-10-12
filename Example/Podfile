@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SpinningButton_Example' do
+  pod 'SpinningButton', :path => '../'
+
+  target 'SpinningButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
