@@ -37,37 +37,37 @@ class ViewController: UIViewController {
 
     @IBAction func shrinky(_ sender: Any) {
         centreShrinkyButton.startAnimating(at: .centre(shrink: true))
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             self.centreShrinkyButton.stopAnimating()
         }
     }
     @IBAction func centreAction(_ sender: Any) {
         centreButton.startAnimating(at: .centre(shrink: false))
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             self.centreButton.stopAnimating()
         }
     }
     @IBAction func trailingAction(_ sender: Any) {
         trailingLoader.startAnimating(at: .trailing(offset: 15, titleWhileLoading: nil))
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             self.trailingLoader.stopAnimating()
         }
     }
     @IBAction func trailingActionWithText(_ sender: Any) {
         trailingLoaderWithTextButton.startAnimating(at: .trailing(offset: 15, titleWhileLoading: "Loading"))
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             self.trailingLoaderWithTextButton.stopAnimating()
         }
     }
     @IBAction func leadingAction(_ sender: Any) {
         leadingLoaderButton.startAnimating(at: .leading(offset: 15, titleWhileLoading: nil))
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             self.leadingLoaderButton.stopAnimating()
         }
     }
     @IBAction func leadingActionWithText(_ sender: Any) {
         leadingLoaderWithTextButton.startAnimating(at: .leading(offset: 15, titleWhileLoading: "Loading"))
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             self.leadingLoaderWithTextButton.stopAnimating()
         }
     }
