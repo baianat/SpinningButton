@@ -19,26 +19,86 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJL-cz-U0r">
-                                <rect key="frame" x="24" y="313.5" width="327" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="6ZZ-QW-CBZ"/>
-                                </constraints>
-                                <state key="normal" title="Show Loader"/>
-                                <connections>
-                                    <action selector="action:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Jjj-w5-2Ol"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="j2S-Na-fzh">
+                                <rect key="frame" x="40" y="138.5" width="295" height="390"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHl-zo-Ihn" customClass="SpinningButton" customModule="SpinningButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Ett-HG-7Rn"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Loader And Shrink"/>
+                                        <connections>
+                                            <action selector="shrinky:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2Jb-Y3-3et"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcJ-jT-gWs" customClass="SpinningButton" customModule="SpinningButton">
+                                        <rect key="frame" x="0.0" y="70" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="LKP-46-lvf"/>
+                                        </constraints>
+                                        <state key="normal" title="Just Show Loader"/>
+                                        <connections>
+                                            <action selector="centreAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uhl-1U-Zhz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xz-Lu-MuR" customClass="SpinningButton" customModule="SpinningButton">
+                                        <rect key="frame" x="0.0" y="140" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="8bY-8F-RfM"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Trailing Loader"/>
+                                        <connections>
+                                            <action selector="trailingAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ppr-i1-MOP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHU-St-YNx" customClass="SpinningButton" customModule="SpinningButton">
+                                        <rect key="frame" x="0.0" y="210" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="u2j-H4-A4B"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Trailing Loader With Text"/>
+                                        <connections>
+                                            <action selector="trailingActionWithText:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="c1w-ll-t0g"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bun-l9-vUT" customClass="SpinningButton" customModule="SpinningButton">
+                                        <rect key="frame" x="0.0" y="280" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="fF4-Xc-zUb"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Leading Loader"/>
+                                        <connections>
+                                            <action selector="leadingAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jI3-jT-QI3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJL-cz-U0r" customClass="SpinningButton" customModule="SpinningButton">
+                                        <rect key="frame" x="0.0" y="350" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="kT1-ig-nKK"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Leading Loader With Text"/>
+                                        <connections>
+                                            <action selector="leadingActionWithText:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ngk-nc-gej"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fJL-cz-U0r" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="6Xs-hx-iSg"/>
-                            <constraint firstItem="fJL-cz-U0r" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="Qai-Ow-aug"/>
-                            <constraint firstItem="fJL-cz-U0r" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Zv8-K3-LRw"/>
+                            <constraint firstItem="j2S-Na-fzh" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="6Qy-bj-exD"/>
+                            <constraint firstItem="j2S-Na-fzh" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="aC2-GJ-wLF"/>
+                            <constraint firstItem="j2S-Na-fzh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="24" id="dw2-Op-wBb"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="actionButton" destination="fJL-cz-U0r" id="Ava-WH-F0h"/>
+                        <outlet property="centreButton" destination="IcJ-jT-gWs" id="Y1G-Rl-m5d"/>
+                        <outlet property="centreShrinkyButton" destination="GHl-zo-Ihn" id="H2q-7H-C2I"/>
+                        <outlet property="leadingLoaderButton" destination="bun-l9-vUT" id="9Pu-wb-5ar"/>
+                        <outlet property="leadingLoaderWithTextButton" destination="fJL-cz-U0r" id="ols-Qf-IaE"/>
+                        <outlet property="trailingLoader" destination="5Xz-Lu-MuR" id="GzV-vx-HkX"/>
+                        <outlet property="trailingLoaderWithTextButton" destination="tHU-St-YNx" id="uCa-Zb-30N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -46,4 +106,24 @@
             <point key="canvasLocation" x="138" y="97"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="5Xz-Lu-MuR">
+            <size key="intrinsicContentSize" width="143" height="30"/>
+        </designable>
+        <designable name="GHl-zo-Ihn">
+            <size key="intrinsicContentSize" width="168" height="30"/>
+        </designable>
+        <designable name="IcJ-jT-gWs">
+            <size key="intrinsicContentSize" width="123" height="30"/>
+        </designable>
+        <designable name="bun-l9-vUT">
+            <size key="intrinsicContentSize" width="148" height="30"/>
+        </designable>
+        <designable name="fJL-cz-U0r">
+            <size key="intrinsicContentSize" width="216" height="30"/>
+        </designable>
+        <designable name="tHU-St-YNx">
+            <size key="intrinsicContentSize" width="211" height="30"/>
+        </designable>
+    </designables>
 </document>
