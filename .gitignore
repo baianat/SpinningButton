@@ -29,3 +29,5 @@ Carthage/Build
 
 Example/Pods/
 Pods/
+_Pods.xcworkspace
+_Pods.xcodeproj
