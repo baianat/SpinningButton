@@ -78,7 +78,7 @@ The defualt behavoir is for the button to shrink into a circule with the spinner
 <img src="https://github.com/baianat/SpinningButton/blob/main/Assets/gifLeading.gif">
 </p>
 
-* Alternatively, you can Customize the offset from the bottom edge as well as the title displayed while the spinner is animating, just as follows...
+* Alternatively, you can customize the offset from the leading edge as well as the title displayed while the spinner is animating, just as follows...
 ``` swift
     spinningButton.startAnimating(at: .leading(offset: 15, titleWhileLoading: "Loading"))
 ```
@@ -100,7 +100,7 @@ The defualt behavoir is for the button to shrink into a circule with the spinner
 <img src="https://github.com/baianat/SpinningButton/blob/main/Assets/gifTrailing.gif">
 </p>
 
-* Alternatively, you can Customize the offset from the bottom edge as well as the title displayed while the spinner is animating, just as follows...
+* Alternatively, you can customize the offset from the trailing edge as well as the title displayed while the spinner is animating, just as follows...
 ``` swift
     spinningButton.startAnimating(at: .trailing(offset: 15, titleWhileLoading: "Loading"))
 ```
