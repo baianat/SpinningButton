@@ -41,6 +41,8 @@ A custom UIButton for iOS that can be transformed into a UIActivityIndicator.
 ```
 5- Invoke `startAnimating` on SpinningButton instance according to your need to show the loader accordingly.
 
+6- Invoke `stopAnimating` on SpinningButton to hide the loader and restore its original state.
+
 ### Customization:
 
 #### Centre:
