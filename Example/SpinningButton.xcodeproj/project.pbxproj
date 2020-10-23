@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7F96DDB0EAC72A6E84AF3650 /* Pods_SpinningButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A67E70F2241D0E855188F6F /* Pods_SpinningButton_Tests.framework */; };
-		FE3B8FD73BC4BEFD845B5943 /* Pods_SpinningButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6119F44A2A29CED4515F6710 /* Pods_SpinningButton_Example.framework */; };
+		83ACB4C187C1BBE3FA5F5874 /* Pods_SpinningButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8027B85F8E7AC35A777E7E11 /* Pods_SpinningButton_Example.framework */; };
+		DB619DEE6B50B4148EC75460 /* Pods_SpinningButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14006FC083449DC9A28A0DB0 /* Pods_SpinningButton_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		195E65D3B44BCDBBEE92FA29 /* Pods-SpinningButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinningButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-SpinningButton_Example/Pods-SpinningButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		028BD3D8841543B7A5AC2742 /* Pods-SpinningButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinningButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SpinningButton_Tests/Pods-SpinningButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0755C631E2F2AEEAE7EB3A42 /* Pods-SpinningButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinningButton_Example.release.xcconfig"; path = "Target Support Files/Pods-SpinningButton_Example/Pods-SpinningButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		14006FC083449DC9A28A0DB0 /* Pods_SpinningButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinningButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BBCD665845E0675AE65355 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2A67E70F2241D0E855188F6F /* Pods_SpinningButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinningButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41F50F30205C9BF48D09DBE0 /* Pods-SpinningButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinningButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-SpinningButton_Tests/Pods-SpinningButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		232D3BCF1930D3C42A745367 /* Pods-SpinningButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinningButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-SpinningButton_Tests/Pods-SpinningButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5B2411FD5EFEDBB56828CA62 /* SpinningButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpinningButton.podspec; path = ../SpinningButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SpinningButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinningButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +44,9 @@
 		607FACE51AFB9204008FA782 /* SpinningButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinningButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		60BB41A48E1BC1B48750AE4A /* Pods-SpinningButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinningButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SpinningButton_Tests/Pods-SpinningButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6119F44A2A29CED4515F6710 /* Pods_SpinningButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinningButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8027B85F8E7AC35A777E7E11 /* Pods_SpinningButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinningButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9376E5EED7B99EF1BDF624 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B232DDCC91A1D3C3D5F4E5CA /* Pods-SpinningButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinningButton_Example.release.xcconfig"; path = "Target Support Files/Pods-SpinningButton_Example/Pods-SpinningButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C457CEA516BFC885C04C5937 /* Pods-SpinningButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinningButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-SpinningButton_Example/Pods-SpinningButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3B8FD73BC4BEFD845B5943 /* Pods_SpinningButton_Example.framework in Frameworks */,
+				83ACB4C187C1BBE3FA5F5874 /* Pods_SpinningButton_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F96DDB0EAC72A6E84AF3650 /* Pods_SpinningButton_Tests.framework in Frameworks */,
+				DB619DEE6B50B4148EC75460 /* Pods_SpinningButton_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,21 +72,12 @@
 		1015A486C05548524DB2D3BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				195E65D3B44BCDBBEE92FA29 /* Pods-SpinningButton_Example.debug.xcconfig */,
-				B232DDCC91A1D3C3D5F4E5CA /* Pods-SpinningButton_Example.release.xcconfig */,
-				60BB41A48E1BC1B48750AE4A /* Pods-SpinningButton_Tests.debug.xcconfig */,
-				41F50F30205C9BF48D09DBE0 /* Pods-SpinningButton_Tests.release.xcconfig */,
+				C457CEA516BFC885C04C5937 /* Pods-SpinningButton_Example.debug.xcconfig */,
+				0755C631E2F2AEEAE7EB3A42 /* Pods-SpinningButton_Example.release.xcconfig */,
+				028BD3D8841543B7A5AC2742 /* Pods-SpinningButton_Tests.debug.xcconfig */,
+				232D3BCF1930D3C42A745367 /* Pods-SpinningButton_Tests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		414F8C276655DAEFBFD32C83 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6119F44A2A29CED4515F6710 /* Pods_SpinningButton_Example.framework */,
-				2A67E70F2241D0E855188F6F /* Pods_SpinningButton_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -97,7 +88,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				1015A486C05548524DB2D3BE /* Pods */,
-				414F8C276655DAEFBFD32C83 /* Frameworks */,
+				8671D6BD679FB08206F9B6CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +150,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8671D6BD679FB08206F9B6CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8027B85F8E7AC35A777E7E11 /* Pods_SpinningButton_Example.framework */,
+				14006FC083449DC9A28A0DB0 /* Pods_SpinningButton_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SpinningButton_Example" */;
 			buildPhases = (
-				BCDD7724C250767D31D4A3E4 /* [CP] Check Pods Manifest.lock */,
+				51AFB73F92AEC7A73F85F5E9 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				5618B1FB8AC83BE327D8FCEB /* [CP] Embed Pods Frameworks */,
+				93D949460A0496A2B9456403 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SpinningButton_Tests" */;
 			buildPhases = (
-				DCF97DE756B939A43D1A20D4 /* [CP] Check Pods Manifest.lock */,
+				74AC360A705879F8A9DF2BB4 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -262,25 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5618B1FB8AC83BE327D8FCEB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpinningButton_Example/Pods-SpinningButton_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SpinningButton/SpinningButton.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpinningButton.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpinningButton_Example/Pods-SpinningButton_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BCDD7724C250767D31D4A3E4 /* [CP] Check Pods Manifest.lock */ = {
+		51AFB73F92AEC7A73F85F5E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,7 +284,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCF97DE756B939A43D1A20D4 /* [CP] Check Pods Manifest.lock */ = {
+		74AC360A705879F8A9DF2BB4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,6 +304,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D949460A0496A2B9456403 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpinningButton_Example/Pods-SpinningButton_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SpinningButton/SpinningButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpinningButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpinningButton_Example/Pods-SpinningButton_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -475,7 +475,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 195E65D3B44BCDBBEE92FA29 /* Pods-SpinningButton_Example.debug.xcconfig */;
+			baseConfigurationReference = C457CEA516BFC885C04C5937 /* Pods-SpinningButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SpinningButton/Info.plist;
@@ -491,7 +491,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B232DDCC91A1D3C3D5F4E5CA /* Pods-SpinningButton_Example.release.xcconfig */;
+			baseConfigurationReference = 0755C631E2F2AEEAE7EB3A42 /* Pods-SpinningButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SpinningButton/Info.plist;
@@ -507,7 +507,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60BB41A48E1BC1B48750AE4A /* Pods-SpinningButton_Tests.debug.xcconfig */;
+			baseConfigurationReference = 028BD3D8841543B7A5AC2742 /* Pods-SpinningButton_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -529,7 +529,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41F50F30205C9BF48D09DBE0 /* Pods-SpinningButton_Tests.release.xcconfig */;
+			baseConfigurationReference = 232D3BCF1930D3C42A745367 /* Pods-SpinningButton_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
