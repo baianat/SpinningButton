@@ -31,11 +31,24 @@ extension BaseBehavior {
     static func create(for position: LoaderPosition, onButton button: SpinningButton) -> BaseBehavior {
         switch position {
             case .centre(let shrink):
-                return CentreLoadingBehavior(button: button, shrinkOnLoading: shrink)
+                return CentreLoadingBehavior(
+                    button: button,
+                    shrinkOnLoading: shrink
+                )
             case .leading(let offset, let titleWhileLoading):
-                return EdgeLoadingBehavior(button: button, offset: offset, isTrailing: false, titleWhileLoading: titleWhileLoading)
+                return EdgeLoadingBehavior(
+                    button: button,
+                    offset: offset,
+                    isTrailing: false,
+                    titleWhileLoading: titleWhileLoading
+                )
             case .trailing(let offset, let titleWhileLoading):
-                return EdgeLoadingBehavior(button: button, offset: offset, isTrailing: true, titleWhileLoading: titleWhileLoading)
+                return EdgeLoadingBehavior(
+                    button: button,
+                    offset: offset,
+                    isTrailing: true,
+                    titleWhileLoading: titleWhileLoading
+                )
         }
     }
 }

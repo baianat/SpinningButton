@@ -54,14 +54,15 @@ class CentreLoadingBehavior: BaseBehavior {
         fullyShrunk = false
         
         button?.loadingSpinner.transform = CGAffineTransform(scaleX: 0, y: 0)
-        UIView.animate(withDuration: 0.3,
-                       delay: 0,
-                       usingSpringWithDamping: 0.45,
-                       initialSpringVelocity: 0,
-                       options: .curveEaseInOut,
-                       animations: {
-                        self.button?.loadingSpinner.transform = CGAffineTransform(scaleX: 1, y: 1)
-                       }) { _ in
+        UIView.animate(
+            withDuration: 0.3,
+            delay: 0,
+            usingSpringWithDamping: 0.45,
+            initialSpringVelocity: 0,
+            options: .curveEaseInOut,
+            animations: {
+                self.button?.loadingSpinner.transform = CGAffineTransform(scaleX: 1, y: 1)
+            }) { _ in
             self.button?.loadingSpinner.startAnimating()
             self.animationCompleted = true
             if self.shouldShrinkOnLoading {

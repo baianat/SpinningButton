@@ -17,7 +17,12 @@ class EdgeLoadingBehavior: BaseBehavior {
     private var cachedTitle: String?
     
     private var animationCompleted = false
-    init(button: SpinningButton, offset: CGFloat = 4.0, isTrailing: Bool, titleWhileLoading: String? ) {
+    init(
+        button: SpinningButton,
+        offset: CGFloat = 4.0,
+        isTrailing: Bool,
+        titleWhileLoading: String?
+    ) {
         self.offset = offset
         self.isTrailing = isTrailing
         self.titleWhileLoading = titleWhileLoading
@@ -28,7 +33,13 @@ class EdgeLoadingBehavior: BaseBehavior {
     override func startAnimating() {
         animationCompleted = false
         guard let button = button else {return}
-        UIView.animate(withDuration: 0.3, delay: 0.05, usingSpringWithDamping: 0.45, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+        UIView.animate(
+            withDuration: 0.3,
+            delay: 0.05,
+            usingSpringWithDamping: 0.45,
+            initialSpringVelocity: 0,
+            options: .curveEaseInOut,
+            animations: {
             button.loadingSpinner.transform = CGAffineTransform(scaleX: 1, y: 1)
         }) { _ in
             button.loadingSpinner.startAnimating()
@@ -47,9 +58,15 @@ class EdgeLoadingBehavior: BaseBehavior {
         button.addSubview(button.loadingSpinner)
         button.loadingSpinner.centerYAnchor.constraint(equalTo: button.centerYAnchor).isActive = true
         if isTrailing {
-            button.loadingSpinner.trailingAnchor.constraint(equalTo: button.trailingAnchor, constant: -offset).isActive = true
+            button.loadingSpinner.trailingAnchor.constraint(
+                equalTo: button.trailingAnchor,
+                constant: -offset
+            ).isActive = true
         } else {
-            button.loadingSpinner.leadingAnchor.constraint(equalTo: button.leadingAnchor, constant: offset).isActive = true
+            button.loadingSpinner.leadingAnchor.constraint(
+                equalTo: button.leadingAnchor,
+                constant: offset
+            ).isActive = true
         }
     }
     
