@@ -14,16 +14,17 @@ public enum LoaderPosition: Equatable {
 }
 
 class BaseBehavior {
-
+    
     weak var button: SpinningButton?
-
     init(button: SpinningButton) {
         self.button = button
     }
-
-    func startAnimating() {}
-    func stopAnimating() {}
-
+    
+    func startAnimating() {
+    }
+    func stopAnimating() {
+    }
+    
 }
 
 extension BaseBehavior {
